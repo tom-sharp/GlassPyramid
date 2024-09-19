@@ -28,7 +28,7 @@ var ui = new ConUI();
 while (ui.UserInput())
 {
 	ui.Start();
-	new Pyramid(mainflow: new Flow() { Volume = ui.MainFlow }).FindFillTime(ui);
+	new Pyramid(ui).FindFillTime();
 	ui.End();
 }
 

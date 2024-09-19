@@ -18,7 +18,7 @@ namespace GPWin
 			if (int.TryParse(tbRows.Text, out parseInt)) this.Rows = parseInt;
 			else this.Rows = 0;
 
-			new Pyramid(mainflow: new Flow() { Volume = this.MainFlow }).FindFillTime(this);
+			new Pyramid(this).FindFillTime();
 
 		}
 

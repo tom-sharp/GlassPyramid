@@ -2,7 +2,7 @@
 namespace GlassPyramid
 {
 
-	class Glass : IGlass
+	public class Glass : IGlass
 	{
 		double timebase = 0;
 		public Glass()

@@ -5,16 +5,18 @@ namespace GlassPyramid
 	{
 		Flows mainflow;
 		List<PyramidGlass> glasses;
+		IPyramidUI ui;
 
-		public Pyramid(IFlow mainflow)
+		public Pyramid(IPyramidUI ui)
 		{
-			this.mainflow = new Flows() { mainflow };
+			this.ui = ui;
+			this.mainflow = new Flows() { ui.MainFlow };
 			this.glasses = new List<PyramidGlass>();
 		}
 
 		public Flows MainFlow => this.mainflow;
 
-		public void FindFillTime(IPyramidUI ui)
+		public void FindFillTime()
 		{
 			this.BuildPyramid(ui.Rows, ui.GlassVolume);
 

@@ -8,7 +8,8 @@ namespace GlassPyramid
 		public int Rows { get; set; }
 		public int Glass { get; set; }
 		public double GlassVolume { get; set; }
-		public double MainFlow { get; set; }
+//		public double MainFlow { get; set; }
+		public Flow MainFlow { get; }
 		public void ShowProgress(string message);
 		public void ShowResult(string message);
 

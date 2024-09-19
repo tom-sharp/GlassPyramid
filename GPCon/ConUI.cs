@@ -12,13 +12,13 @@ namespace GPCon
 			Rows = 5;
 			Glass = 5;
 			GlassVolume = 10;
-			MainFlow = 1;
+			MainFlow = new Flow() { Volume = 1 };
 		}
 
 		public int Rows { get; set; }
 		public int Glass { get; set; }
 		public double GlassVolume { get; set; }
-		public double MainFlow { get; set; }
+		public Flow MainFlow { get; set; }
 
 
 		public bool UserInput()

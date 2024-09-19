@@ -1,7 +1,7 @@
 ﻿
 namespace GlassPyramid
 {
-	class PyramidGlass : Glass, IPyramidGlass
+	public class PyramidGlass : Glass, IPyramidGlass
 	{
 		Flow seedflow;
 		List<PyramidGlass> seedglasses;

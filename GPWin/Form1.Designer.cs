@@ -179,7 +179,7 @@ namespace GPWin
 		public int Rows { get; set; }
 		public int Glass { get; set; }
 		public double GlassVolume { get; set; }
-		public double MainFlow { get; set; }
+		public Flow MainFlow { get; } = new Flow();
 
 		void Setup()
 		{
@@ -187,11 +187,12 @@ namespace GPWin
 			this.Rows = 5;
 			this.Glass = 5;
 			this.GlassVolume = 10;
-			this.MainFlow = 1;
+			this.MainFlow.Volume = 1;
+
 			tbGlass.Text = this.Glass.ToString();
 			tbRows.Text = this.Rows.ToString();
 			tbGlassVolum.Text = this.GlassVolume.ToString();
-			tbMainFlow.Text = this.MainFlow.ToString();
+			tbMainFlow.Text = this.MainFlow.Volume.ToString();
 			tbGlassVolum.Enabled = false;
 			tbMainFlow.Enabled = false;
 			tbResult.PlaceholderText = "Find out the time taken to fill a glass in a 2D pyramid of\nglasses. Set number of rows the pyramid is buidt on,\nand choose the glass";
