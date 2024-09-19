@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlassPyramid", "GlassPyramid\GlassPyramid.csproj", "{37D517BE-BC40-4026-BA9F-2C9060308A0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPWin", "GPWin\GPWin.csproj", "{521B2100-1324-41B1-9C48-EF04F51A45A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPCon", "GPCon\GPCon.csproj", "{7634B20A-9658-4BBD-85E3-66FA0CF82384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D517BE-BC40-4026-BA9F-2C9060308A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D517BE-BC40-4026-BA9F-2C9060308A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D517BE-BC40-4026-BA9F-2C9060308A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D517BE-BC40-4026-BA9F-2C9060308A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521B2100-1324-41B1-9C48-EF04F51A45A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521B2100-1324-41B1-9C48-EF04F51A45A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521B2100-1324-41B1-9C48-EF04F51A45A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521B2100-1324-41B1-9C48-EF04F51A45A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7634B20A-9658-4BBD-85E3-66FA0CF82384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7634B20A-9658-4BBD-85E3-66FA0CF82384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7634B20A-9658-4BBD-85E3-66FA0CF82384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7634B20A-9658-4BBD-85E3-66FA0CF82384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E5F2E7-6F2B-4758-9770-DABCFE294920}
+	EndGlobalSection
+EndGlobal
